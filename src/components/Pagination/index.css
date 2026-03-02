@@ -1,0 +1,39 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+}
+
+.page-button {
+  cursor: pointer;
+  margin: 2px;
+  border: 1px grey solid;
+}
+
+.page-button:hover {
+  background-color: #0559a8;
+  color: white;
+}
+
+.active-page {
+  background-color: #0559a8;
+  color: white;
+}
+
+.pre-nxt-buttons {
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px grey solid;
+}
+
+.pre-nxt-buttons:hover {
+  background-color: #0559a8;
+  color: white;
+}

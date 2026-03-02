@@ -1,0 +1,148 @@
+.single-movie-details {
+  padding-top: 12vh;
+  background-color: #1e1e1f;
+  padding-bottom: 20px;
+}
+
+.single-movie-poster {
+  height: 90vh;
+}
+
+.single-movie-details-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-movie-name {
+  font-size: 51px;
+  color: #0559a8;
+  font-weight: 500;
+  font-family: 'Bree serif';
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.genre-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3px;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+}
+
+.genre-item {
+  color: azure;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  border-bottom: 1px azure solid;
+  padding: 5px;
+}
+
+.sub-details-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.sub-details {
+  color: azure;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-left: 15px;
+  margin-right: 25px;
+}
+
+.duration {
+  text-align: center;
+  color: azure;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-top: 30px;
+}
+
+.about-movie {
+  text-align: center;
+  color: azure;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 32px;
+}
+
+.cast-details-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .single-movie-details {
+    padding-top: 5vh;
+    padding-bottom: 10px;
+  }
+
+  .single-movie-poster {
+    height: 50vh;
+    align-self: center;
+  }
+
+  .single-movie-details-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .single-movie-name {
+    font-size: 41px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .genre-list {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: auto;
+  }
+  .genre-item {
+    font-size: 14px;
+  }
+
+  .sub-details-section {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .sub-details,
+  .about-movie {
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: auto;
+  }
+
+  .duration {
+    text-align: center;
+  }
+
+  .about-movie {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}

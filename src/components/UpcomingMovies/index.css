@@ -1,0 +1,22 @@
+.bg-color {
+  background-image: radial-gradient(#edf2f5, #b8e5fc, #80c7ed);
+  background-size: cover;
+  padding-bottom: 20px;
+}
+.popular-movie-heading {
+  font-size: 25px;
+  color: #0559a8;
+  font-weight: 600;
+  font-family: 'Bree serif';
+  padding-top: 12vh;
+  text-align: center;
+}
+
+.movies-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 15px;
+}
